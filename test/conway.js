@@ -1,5 +1,6 @@
 var test = require('tape')
 var conway = require('../conway.js')
+var createBoard = require('../createBoard.js')
 
 test('createBoard', function (t) {
   var length = 5
